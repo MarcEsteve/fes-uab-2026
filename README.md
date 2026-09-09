@@ -23,3 +23,9 @@ Software mitjançant exemples pràctics.
 El fitxer [`exemple.py`](exemple.py) conté un primer programa en Python que mostra
 un missatge per pantalla amb la funció `print()`.
 
+### Notebook de Jupyter
+
+El fitxer [`explicacio_exemple.ipynb`](explicacio_exemple.ipynb) es pot obrir amb
+Jupyter Notebook o amb VS Code i l'extensió de Jupyter. Inclou explicacions
+pas a pas de cada línia de l'exemple i cel·les de Python que es poden executar.
+
