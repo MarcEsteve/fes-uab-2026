@@ -1,5 +1,5 @@
 # Fonaments d'Enginyeria de Software
-Repositori per l'assignatura de Fonaments d'Enginyeria de Software de la UAB curs acadèmic 2026/2027
+Repositori per l'assignatura de FES de la UAB curs acadèmic 2026/2027
 
 ## Índex
 
@@ -11,3 +11,15 @@ Repositori per l'assignatura de Fonaments d'Enginyeria de Software de la UAB cur
 6. Treballar amb dades i persistència.
 7. Aplicar la programació a sistemes, xarxes i telecomunicacions.
 8. Desenvolupar solucions cada vegada més completes.
+
+## Contingut del repositori
+
+En aquest repositori hi haurà principalment codi escrit en **Python**, que servirà
+per comprendre millor els conceptes de l'assignatura de Fonaments d'Enginyeria de
+Software mitjançant exemples pràctics.
+
+### Exemple bàsic
+
+El fitxer [`exemple.py`](exemple.py) conté un primer programa en Python que mostra
+un missatge per pantalla amb la funció `print()`.
+
