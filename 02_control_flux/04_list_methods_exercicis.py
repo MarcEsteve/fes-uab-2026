@@ -11,12 +11,12 @@
 
 # Exercici 2: Combinar i buidar llistes
 # Crea dues llistes:
-# lista_a = [1, 2, 3]
-# lista_b = [4, 5, 6, 1, 2]
-# Amplia lista_a amb lista_b fent servir extend().
-# Elimina la primera aparició del nombre 1 de lista_a fent servir remove().
-# Elimina l'element de l'índex 3 de lista_a fent servir pop(). Imprimeix l'element eliminat.
-# Buida completament lista_b fent servir clear().
+# llista_a = [1, 2, 3]
+# llista_b = [4, 5, 6, 1, 2]
+# Amplia llista_a amb llista_b fent servir extend().
+# Elimina la primera aparició del nombre 1 de llista_a fent servir remove().
+# Elimina l'element de l'índex 3 de llista_a fent servir pop(). Imprimeix l'element eliminat.
+# Buida completament llista_b fent servir clear().
 
 # Exercici 3: Slicing i eliminació amb del
 # Crea una llista amb els nombres de l'1 al 10.

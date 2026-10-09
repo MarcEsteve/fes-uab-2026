@@ -137,8 +137,8 @@ if nombre:
 # print("\nL'expressió condicional:")
 # [codi si es compleix la condició] if [condició] else [codi si no es compleix]
 # En JavaScript seria: [condició] ? [codi si es compleix] : [codi si no es compleix]
-edad = 197
-missatge = "És major d'edat" if edad >= 18 else "És menor d'edat"
+edat = 197
+missatge = "És major d'edat" if edat >= 18 else "És menor d'edat"
 print(missatge)
 
 ###

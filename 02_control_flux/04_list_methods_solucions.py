@@ -8,30 +8,30 @@
 # Insereix-hi el nombre 10 a la posició 2 fent servir insert().
 # Modifica el primer element de la llista perquè sigui 0.
 print("\nExercici 1:")
-lista = [1, 2, 3, 4, 5]
-lista.append(6)
-lista.insert(2, 10)
-lista[0] = 0
-print(lista)  # Sortida: [0, 2, 10, 3, 4, 5, 6]
+llista = [1, 2, 3, 4, 5]
+llista.append(6)
+llista.insert(2, 10)
+llista[0] = 0
+print(llista)  # Sortida: [0, 2, 10, 3, 4, 5, 6]
 
 # Exercici 2: Combinar i buidar llistes
 # Crea dues llistes:
-# lista_a = [1, 2, 3]
-# lista_b = [4, 5, 6, 1, 2]
-# Amplia lista_a amb lista_b fent servir extend().
-# Elimina la primera aparició del nombre 1 de lista_a fent servir remove().
-# Elimina l'element de l'índex 3 de lista_a fent servir pop(). Imprimeix l'element eliminat.
-# Buida completament lista_b fent servir clear().
+# llista_a = [1, 2, 3]
+# llista_b = [4, 5, 6, 1, 2]
+# Amplia llista_a amb llista_b fent servir extend().
+# Elimina la primera aparició del nombre 1 de llista_a fent servir remove().
+# Elimina l'element de l'índex 3 de llista_a fent servir pop(). Imprimeix l'element eliminat.
+# Buida completament llista_b fent servir clear().
 print("\nExercici 2:")
-lista_a = [1, 2, 3]
-lista_b = [4, 5, 6, 1, 2]
-lista_a.extend(lista_b)
-lista_a.remove(1)
-elemento_eliminado = lista_a.pop(3)
-print(f"Element eliminat: {elemento_eliminado}") # Sortida: Element eliminat: 5
-lista_b.clear()
-print("Llista a:", lista_a) # Sortida: Llista a: [2, 3, 4, 6, 1, 2]
-print("Llista b:", lista_b) # Sortida: Llista b: []
+llista_a = [1, 2, 3]
+llista_b = [4, 5, 6, 1, 2]
+llista_a.extend(llista_b)
+llista_a.remove(1)
+element_eliminat = llista_a.pop(3)
+print(f"Element eliminat: {element_eliminat}") # Sortida: Element eliminat: 5
+llista_b.clear()
+print("Llista a:", llista_a) # Sortida: Llista a: [2, 3, 4, 6, 1, 2]
+print("Llista b:", llista_b) # Sortida: Llista b: []
 
 # Exercici 3: Slicing i eliminació amb del
 # Crea una llista amb els nombres de l'1 al 10.
@@ -39,9 +39,9 @@ print("Llista b:", lista_b) # Sortida: Llista b: []
 # (sense incloure el 5).
 # Imprimeix la llista resultant.
 print("\nExercici 3:")
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-del lista[2:5]
-print(lista)  # Sortida: [1, 2, 6, 7, 8, 9, 10]
+llista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+del llista[2:5]
+print(llista)  # Sortida: [1, 2, 6, 7, 8, 9, 10]
 
 # Exercici 4: Ordenar i comptar
 # Crea una llista amb els nombres següents: [5, 2, 8, 1, 9, 4, 2].
@@ -49,13 +49,13 @@ print(lista)  # Sortida: [1, 2, 6, 7, 8, 9, 10]
 # Compta quantes vegades apareix el nombre 2 a la llista fent servir count().
 # Comprova si el nombre 7 és a la llista fent servir in.
 print("\nExercici 4:")
-lista = [5, 2, 8, 1, 9, 4, 2]
-lista.sort()
-cantidad_dos = lista.count(2)
-esta_el_siete = 7 in lista
-print(f"Llista ordenada: {lista}") # Sortida: Llista ordenada: [1, 2, 2, 4, 5, 8, 9]
-print(f"Quantitat de 2: {cantidad_dos}") # Sortida: Quantitat de 2: 2
-print(f"Hi ha el 7?: {esta_el_siete}") # Sortida: Hi ha el 7?: False
+llista = [5, 2, 8, 1, 9, 4, 2]
+llista.sort()
+quantitat_dos = llista.count(2)
+hi_ha_el_set = 7 in llista
+print(f"Llista ordenada: {llista}") # Sortida: Llista ordenada: [1, 2, 2, 4, 5, 8, 9]
+print(f"Quantitat de 2: {quantitat_dos}") # Sortida: Quantitat de 2: 2
+print(f"Hi ha el 7?: {hi_ha_el_set}") # Sortida: Hi ha el 7?: False
 
 # Exercici 5: Còpia i referència
 # Crea una llista anomenada original amb els nombres [1, 2, 3].
@@ -79,6 +79,6 @@ print(f"Referència: {referencia}")     # Sortida: Referència: [10, 2, 3]
 # Crea una llista amb les cadenes següents: ["Poma", "pera", "PLÀTAN", "taronja"].
 # Ordena la llista sense distingir entre majúscules i minúscules.
 print("\nExercici 6:")
-strings = ["Poma", "pera", "PLÀTAN", "taronja"]
-strings.sort(key=str.lower)
-print(strings) # Sortida: ['pera', 'PLÀTAN', 'Poma', 'taronja']
+cadenes = ["Poma", "pera", "PLÀTAN", "taronja"]
+cadenes.sort(key=str.lower)
+print(cadenes) # Sortida: ['pera', 'PLÀTAN', 'Poma', 'taronja']

@@ -3,66 +3,66 @@
 # Els mètodes més importants per treballar amb llistes
 ###
 
-lista1 = ['a', 'b', 'c', 'd']
-print(lista1)
+llista1 = ['a', 'b', 'c', 'd']
+print(llista1)
 # Afegir o inserir elements a la llista
-# lista1[4]='e'
-lista1.append('e') # Afegeix un element al final.
-print(lista1)
+# llista1[4]='e'
+llista1.append('e') # Afegeix un element al final.
+print(llista1)
 
-lista1.insert(1, '@') # Insereix un element a la posició indicada pel primer argument.
-print(lista1)
+llista1.insert(1, '@') # Insereix un element a la posició indicada pel primer argument.
+print(llista1)
 
-lista1.extend(['😃', '😍']) # Afegeix elements al final de la llista.
-print(lista1)
+llista1.extend(['😃', '😍']) # Afegeix elements al final de la llista.
+print(llista1)
 
 # Eliminar elements de la llista
-lista1.remove('@') # Elimina la primera aparició del caràcter @.
-print(lista1)
+llista1.remove('@') # Elimina la primera aparició del caràcter @.
+print(llista1)
 
-ultimo = lista1.pop() # Elimina l'últim element de la llista i també el retorna.
-# lista1.pop(-1) # També es pot fer així.
-print(ultimo)
-print(lista1)
+ultim = llista1.pop() # Elimina l'últim element de la llista i també el retorna.
+# llista1.pop(-1) # També es pot fer així.
+print(ultim)
+print(llista1)
 
-letrab = lista1.pop(1) # Elimina el segon element de la llista (índex 1).
-print(letrab)
-print(lista1)
+lletra_b = llista1.pop(1) # Elimina el segon element de la llista (índex 1).
+print(lletra_b)
+print(llista1)
 
 # Eliminar directament amb del
-del lista1[-1]
-print(lista1)
+del llista1[-1]
+print(llista1)
 
-lista1.clear() # Elimina tots els elements de la llista.
-print(lista1)
+llista1.clear() # Elimina tots els elements de la llista.
+print(llista1)
 
 # Eliminar un interval d'elements
-lista1 = ['🐼', '🐨', '🐶', '😿', '🐹']
-del lista1[1:3]
-print(lista1)
+llista1 = ['🐼', '🐨', '🐶', '😿', '🐹']
+del llista1[1:3]
+print(llista1)
 
 # Més mètodes útils
 print("Ordenar llistes modificant l'original")
-numbers = [3, 10, 2, 8, 99, 101]
-numbers.sort()
-print(numbers)
+nombres = [3, 10, 2, 8, 99, 101]
+nombres.sort()
+print(nombres)
 
 print('Ordenar llistes creant-ne una de nova')
-numbers = [3, 10, 2, 8, 99, 101]
-sorted_numbers = sorted(numbers)
-print(numbers)
-print(sorted_numbers)
+nombres = [3, 10, 2, 8, 99, 101]
+nombres_ordenats = sorted(nombres)
+print(nombres)
+print(nombres_ordenats)
 
 print("Ordenar una llista de cadenes de text (tot en minúscula)")
-frutas = ['poma', 'pera', 'llimona', 'poma', 'pera', 'llimona']
-sorted_frutas = sorted(frutas)
-print(sorted_frutas)
+fruites = ['poma', 'pera', 'llimona', 'poma', 'pera', 'llimona']
+fruites_ordenades = sorted(fruites)
+print(fruites_ordenades)
 
 print("Ordenar una llista de cadenes de text (majúscules i minúscules barrejades)")
-frutas = ['poma', 'Pera', 'Llimona', 'poma', 'pera', 'llimona']
-frutas.sort(key=str.lower)
-# Distingeix entre majúscules i minúscules.
-print(frutas)
+fruites = ['poma', 'Pera', 'Llimona', 'poma', 'pera', 'llimona']
+fruites.sort(key=str.lower)
+# No distingeix entre majúscules i minúscules.
+print(fruites)
 
 # Més coses útils
 animals = ['🐶', '🐼', '🐨', '🐶']
@@ -84,12 +84,12 @@ print('🐹' in animals) # -> False
 
 # Exercici 2: Combinar i buidar llistes
 # Crea dues llistes:
-# lista_a = [1, 2, 3]
-# lista_b = [4, 5, 6, 1, 2]
-# Amplia lista_a amb lista_b fent servir extend().
-# Elimina la primera aparició del nombre 1 de lista_a fent servir remove().
-# Elimina l'element de l'índex 3 de lista_a fent servir pop(). Imprimeix l'element eliminat.
-# Buida completament lista_b fent servir clear().
+# llista_a = [1, 2, 3]
+# llista_b = [4, 5, 6, 1, 2]
+# Amplia llista_a amb llista_b fent servir extend().
+# Elimina la primera aparició del nombre 1 de llista_a fent servir remove().
+# Elimina l'element de l'índex 3 de llista_a fent servir pop(). Imprimeix l'element eliminat.
+# Buida completament llista_b fent servir clear().
 
 # Exercici 3: Slicing i eliminació amb del
 # Crea una llista amb els nombres de l'1 al 10.
