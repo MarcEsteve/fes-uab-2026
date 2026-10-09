@@ -21,7 +21,7 @@ print("5 > 3:", 5 > 3)        # True
 # print("5 >= 5:", 5 >= 5)      # True (major o igual que)
 # print("5 <= 3:", 5 <= 3)      # False (menor o igual que)
 
-# print("\nComparació de cadenes:")
+# print("\nComparació de cadenes de text:")
 print("'poma' < 'pera':", "poma" < "pera") # True
 print("'Hola' == 'hola'", "Hola" == "hola") # False
 

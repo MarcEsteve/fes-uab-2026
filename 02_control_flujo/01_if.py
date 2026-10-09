@@ -3,14 +3,6 @@
 # Permeten executar blocs de codi només si es compleixen certes condicions.
 ###
 
-# Podem importar mòduls de Python per fer-los servir als nostres programes.
-# En aquest cas, importem el mòdul "os", que ens dona accés a funcions
-# relacionades amb el sistema operatiu.
-import os
-# system() ens permet executar una ordre al terminal.
-# En aquest cas, ho fem per netejar la pantalla.
-os.system("cls") # Windows
-
 # print("\n Sentència condicional simple")
 
 # Podem fer servir la paraula clau "if" per executar un bloc de codi
