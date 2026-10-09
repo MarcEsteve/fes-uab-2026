@@ -1,40 +1,40 @@
 import os
 os.system("cls")
 
-# 📌 Ejemplos de Tuplas en Python
-# Las tuplas son colecciones ordenadas e inmutables de elementos.
-# A diferencia de las listas, no se pueden modificar una vez creadas.
+# 📌 Exemples de tuples en Python
+# Les tuples són col·leccions ordenades i immutables d'elements.
+# A diferència de les llistes, no es poden modificar un cop creades.
 
-# 1️⃣ Creación de una tupla
-mi_tupla = (1, 2, 3, 2, 4, 2)
-print("Tupla original:", mi_tupla)
-# mi_lista = [1, 2, 3, 2, 4, 2]
+# 1️⃣ Creació d'una tupla
+la_meva_tupla = (1, 2, 3, 2, 4, 2)
+print("Tupla original:", la_meva_tupla)
+# la_meva_llista = [1, 2, 3, 2, 4, 2]
 
-# 2️⃣ Intentar modificar un valor en la tupla (esto dará error)
-# mi_tupla[0] = 5  # ❌ TypeError: 'tuple' object does not support item assignment
+# 2️⃣ Intentar modificar un valor de la tupla (això donarà error)
+# la_meva_tupla[0] = 5  # ❌ TypeError: 'tuple' object does not support item assignment
 
-# 3️⃣ Solución: Convertir la tupla en lista, modificarla y volver a tupla
-lista = list(mi_tupla)  # Convertir a lista
-lista[0] = 5  # Modificar el primer elemento
-mi_tupla = tuple(lista)  # Convertir de nuevo a tupla
-print("Tupla modificada convirtiéndola en lista:", mi_tupla)
+# 3️⃣ Solució: Convertir la tupla en llista, modificar-la i tornar a tupla
+llista = list(la_meva_tupla)  # Convertir a llista
+llista[0] = 5  # Modificar el primer element
+la_meva_tupla = tuple(llista)  # Convertir de nou a tupla
+print("Tupla modificada convertint-la en llista:", la_meva_tupla)
 
-# 4️⃣ Crear una nueva tupla con valores modificados
-mi_tupla = (5,) + mi_tupla[1:]
-print("Nueva tupla con valores modificados:", mi_tupla)
+# 4️⃣ Crear una tupla nova amb valors modificats
+la_meva_tupla = (5,) + la_meva_tupla[1:]
+print("Tupla nova amb valors modificats:", la_meva_tupla)
 
-# 5️⃣ Acceder a elementos de una tupla
-print("Primer elemento:", mi_tupla[0])
-print("Último elemento:", mi_tupla[-1])
+# 5️⃣ Accedir als elements d'una tupla
+print("Primer element:", la_meva_tupla[0])
+print("Últim element:", la_meva_tupla[-1])
 
-# 6️⃣ Longitud de una tupla
-print("Número de elementos en la tupla:", len(mi_tupla))
+# 6️⃣ Longitud d'una tupla
+print("Nombre d'elements de la tupla:", len(la_meva_tupla))
 
-# 7️⃣ Métodos disponibles en una tupla
-print("Número de veces que aparece el 2 en la tupla:", mi_tupla.count(2))  # Cuenta cuántas veces aparece un valor
-print("Índice de la primera aparición del 4:", mi_tupla.index(4))  # Devuelve el índice de la primera aparición de un valor
+# 7️⃣ Mètodes disponibles en una tupla
+print("Nombre de vegades que apareix el 2 a la tupla:", la_meva_tupla.count(2))  # Compta quantes vegades apareix un valor
+print("Índex de la primera aparició del 4:", la_meva_tupla.index(4))  # Retorna l'índex de la primera aparició d'un valor
 
-# 📝 Ejercicios sobre Tuplas
-# 1️⃣ Crea una tupla con los nombres de 5 ciudades y muestra la segunda y la penúltima ciudad.
-# 2️⃣ Dada una tupla con números enteros, cuenta cuántas veces aparece el número 3 en la tupla.
-# 3️⃣ Crea una función que reciba una tupla con números y devuelva una nueva tupla con los números ordenados de menor a mayor.
+# 📝 Exercicis sobre tuples
+# 1️⃣ Crea una tupla amb els noms de 5 ciutats i mostra la segona i la penúltima ciutat.
+# 2️⃣ Donada una tupla amb números enters, compta quantes vegades apareix el número 3 a la tupla.
+# 3️⃣ Crea una funció que rebi una tupla amb números i retorni una tupla nova amb els números ordenats de menor a major.

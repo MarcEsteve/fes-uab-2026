@@ -1,94 +1,94 @@
 ###
 # 02 - Bucles (for)
-# Permiten ejecutar un bloque de código repetidamente mientras ITERA un iterable o una lista
+# Permeten executar un bloc de codi repetidament mentre ITERA un iterable o una llista
 ###
 
 import os
-os.system("cls")  # Limpia la pantalla de la terminal
+os.system("cls")  # Neteja la pantalla del terminal
 
 print("\nBucle for:")
 
-# Iterar una lista
-# frutas = ["manzana", "pera", "mandarina"]
-# for fruta in frutas:
-#   print(fruta)
+# Iterar una llista
+# fruites = ["poma", "pera", "mandarina"]
+# for fruita in fruites:
+#   print(fruita)
 
-# Iterar sobre cualquier cosa que sea iterable
+# Iterar sobre qualsevol cosa que sigui iterable
 # cadena = "marc"
 # for caracter in cadena:
 #   print(caracter)
 
 # enumerate()
-# frutas = ["manzana", "pera", "mandarina"]
-# for idx, value in enumerate(frutas):
-#   print(f"El índice es {idx} y la fruta es {value}")
+# fruites = ["poma", "pera", "mandarina"]
+# for idx, valor in enumerate(fruites):
+#   print(f"L'índex és {idx} i la fruita és {valor}")
 
-# bucles anidados
-# letras = ["A", "B", "C"]
+# bucles imbricats
+# lletres = ["A", "B", "C"]
 # numeros = [1, 2, 3]
 
-# for letra in letras:
+# for lletra in lletres:
 #   for numero in numeros:
-#     print(f"{letra}{numero}")
+#     print(f"{lletra}{numero}")
 
-# Revisar Python tutor: http://pythontutor.com/visualize.html#mode=edit
+# Revisar Python Tutor: http://pythontutor.com/visualize.html#mode=edit
 
 
 # break
 # print("\nbreak:")
-# animales = ["perro", "gato", "raton", "loro", "pez", "canario"]
-# for idx, animal in enumerate(animales):
+# animals = ["gos", "gat", "ratolí", "lloro", "peix", "canari"]
+# for idx, animal in enumerate(animals):
 #   print(animal)
-#   if animal == "loro":
-#     print(f"El loro está escondido en el índice {idx}")
+#   if animal == "lloro":
+#     print(f"El lloro està amagat a l'índex {idx}")
 #     break
 
 # continue
 # print("\ncontinue:")
-# animales = ["perro", "gato", "raton", "loro", "pez", "canario"]
-# for idx, animal in enumerate(animales):
-#   if animal == "loro": continue
+# animals = ["gos", "gat", "ratolí", "lloro", "peix", "canari"]
+# for idx, animal in enumerate(animals):
+#   if animal == "lloro": continue
 #   print(animal)
 
-# Comprensión de listas (list comprehension)
-# animales = ["perro", "gato", "raton", "loro", "pez", "canario"]
-# animales_mayus = [animal.upper() for animal in animales]
-# print(animales_mayus)
+# Comprensió de llistes (list comprehension)
+# animals = ["gos", "gat", "ratolí", "lloro", "peix", "canari"]
+# animals_majus = [animal.upper() for animal in animals]
+# print(animals_majus)
 
-# Muestra los números pares de una lista
-# pares = [num for num in [1, 2, 3, 4, 5, 6] if num % 2 == 0]
-# print(pares)
+# Mostra els números parells d'una llista
+# parells = [num for num in [1, 2, 3, 4, 5, 6] if num % 2 == 0]
+# print(parells)
 
 ###
-# EJERCICIOS (for)
+# EXERCICIS (for)
 ###
 
-# Ejercicio 1: Imprimir números pares
-# Imprime todos los números pares del 2 al 20 (inclusive) usando un bucle for.
-# print("\nEjercicio 1:")
+# Exercici 1: Imprimir números parells
+# Imprimeix tots els números parells del 2 al 20 (inclosos) fent servir un bucle for.
+# print("\nExercici 1:")
 
-# Ejercicio 2: Calcular la media de una lista
-# Dada la siguiente lista de números:
+# Exercici 2: Calcular la mitjana d'una llista
+# Donada la llista de números següent:
 # numeros = [10, 20, 30, 40, 50]
-# Calcula la media de los números usando un bucle for.
-# print("\nEjercicio 2:")
+# Calcula la mitjana dels números fent servir un bucle for.
+# print("\nExercici 2:")
 
-# Ejercicio 3: Buscar el máximo de una lista
-# Dada la siguiente lista de números:
+# Exercici 3: Buscar el màxim d'una llista
+# Donada la llista de números següent:
 # numeros = [15, 5, 25, 10, 20]
-# Encuentra el número máximo en la lista usando un bucle for.
-# print("\nEjercicio 3:")
+# Troba el número màxim de la llista fent servir un bucle for.
+# print("\nExercici 3:")
 
-# Ejercicio 4: Filtrar cadenas por longitud
-# Dada la siguiente lista de palabras:
-# palabras = ["casa", "arbol", "sol", "elefante", "luna"]
-# Crea una nueva lista que contenga solo las palabras con más de 5 letras
-# usando un bucle for y list comprehension.
-# print("\nEjercicio 4:")
+# Exercici 4: Filtrar cadenes per longitud
+# Donada la llista de paraules següent:
+# paraules = ["casa", "arbre", "sol", "elefant", "lluna"]
+# Crea una llista nova que contingui només les paraules amb més de 5 lletres
+# fent servir un bucle for i list comprehension.
+# print("\nExercici 4:")
 
-# Ejercicio 5: Contar palabras que empiezan con una letra
-# Dada la siguiente lista de palabras:
-# palabras = ["casa", "arbol", "sol", "elefante", "luna", "coche"]
-# Pide al usuario que introduzca una letra.
-# Cuenta cuántas palabras en la lista empiezan con esa letra (sin diferenciar mayúsculas/minúsculas).
-# print("\nEjercicio 5:")
+# Exercici 5: Comptar paraules que comencen per una lletra
+# Donada la llista de paraules següent:
+# paraules = ["casa", "arbre", "sol", "elefant", "lluna", "cotxe"]
+# Demana a l'usuari que introdueixi una lletra.
+# Compta quantes paraules de la llista comencen per aquesta lletra (sense diferenciar majúscules/minúscules).
+# print("\nExercici 5:")

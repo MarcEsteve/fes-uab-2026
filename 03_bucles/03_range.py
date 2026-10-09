@@ -1,6 +1,6 @@
 ###
 # 03 - range()
-# Permite crear una secuencia de números. Puede ser útil para for, pero no solo para eso
+# Permet crear una seqüència de números. Pot ser útil per a for, però no només per a això
 ###
 
 import os
@@ -8,16 +8,16 @@ os.system("cls")
 
 # print("\nrange():")
 
-# Genera una secuencia de números del 0 al 9
+# Genera una seqüència de números del 0 al 9
 # for num in range(10):
 #   print(num)
-  # Acciones
+  # Accions
 
-# range(inicio, fin)
+# range(inici, final)
 # for num in range(5, 10):
 #   print(num)
 
-# range(inicio, fin, paso)
+# range(inici, final, pas)
 # for num in range(0, 1000, 5):
 #   print(num)
 
@@ -31,43 +31,44 @@ os.system("cls")
 #   print(num)
 
 # nums = range(1,11)
-# list_of_nums = list(nums)
-# print(list_of_nums)
+# llista_de_nums = list(nums)
+# print(llista_de_nums)
 
-# seria para hacerlo cinco veces
+# seria per fer-ho cinc vegades
 # for _ in range(5):
-#   print("hacer cinco veces algo")
+#   print("fer cinc vegades alguna cosa")
 
-# Mucho mejor que si lo hicieramos con un while
+# Molt millor que si ho féssim amb un while
 # num = 0
 # while num < 5:
-#   print("hacer cinco veces algo")
+#   print("fer cinc vegades alguna cosa")
+#   num += 1
 
 ###
-# EJERCICIOS (range)
+# EXERCICIS (range)
 ###
 
-# Ejercicio 1: Imprimir números del 1 al 10
-# Imprime los números del 1 al 10 (inclusive) usando un bucle for y range().
-# print("\nEjercicio 1:")
+# Exercici 1: Imprimir números de l'1 al 10
+# Imprimeix els números de l'1 al 10 (inclosos) fent servir un bucle for i range().
+# print("\nExercici 1:")
 
-# Ejercicio 2: Imprimir números impares del 1 al 20
-# Imprime todos los números impares entre 1 y 20 (inclusive) usando un bucle for y range().
-# print("\nEjercicio 2:")
+# Exercici 2: Imprimir números senars de l'1 al 20
+# Imprimeix tots els números senars entre 1 i 20 (inclosos) fent servir un bucle for i range().
+# print("\nExercici 2:")
 
-# Ejercicio 3: Imprimir múltiplos de 5
-# Imprime los múltiplos de 5 desde 5 hasta 50 (inclusive) usando un bucle for y range().
-# print("\nEjercicio 3:")
+# Exercici 3: Imprimir múltiples de 5
+# Imprimeix els múltiples de 5 des del 5 fins al 50 (inclosos) fent servir un bucle for i range().
+# print("\nExercici 3:")
 
-# Ejercicio 4: Imprimir números en orden inverso
-# Imprime los números del 10 al 1 (inclusive) en orden inverso usando un bucle for y range().
-# print("\nEjercicio 4:")
+# Exercici 4: Imprimir números en ordre invers
+# Imprimeix els números del 10 a l'1 (inclosos) en ordre invers fent servir un bucle for i range().
+# print("\nExercici 4:")
 
-# Ejercicio 5: Suma de números en un rango
-# Calcula la suma de los números del 1 al 100 (inclusive) usando un bucle for y range().
-# print("\nEjercicio 5:")
+# Exercici 5: Suma de números en un rang
+# Calcula la suma dels números de l'1 al 100 (inclosos) fent servir un bucle for i range().
+# print("\nExercici 5:")
 
-# Ejercicio 6: Tabla de multiplicar
-# Pide al usuario que introduzca un número.
-# Imprime la tabla de multiplicar de ese número (del 1 al 10) usando un bucle for y range().
-# print("\nEjercicio 6:")
+# Exercici 6: Taula de multiplicar
+# Demana a l'usuari que introdueixi un número.
+# Imprimeix la taula de multiplicar d'aquest número (de l'1 al 10) fent servir un bucle for i range().
+# print("\nExercici 6:")

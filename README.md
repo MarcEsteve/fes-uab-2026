@@ -98,16 +98,14 @@ Els exercicis i les solucions estan separats en fitxers com [`01_if_exercicis.py
 
 Carpeta [`03_bucles/`](03_bucles/). Aplega materials de bucles i altres estructures que permeten organitzar programes:
 
-| Fitxer | Contingut |
-|---|---|
-| [`01_loop_while.py`](03_bucles/01_loop_while.py) | Bucle `while`, comptadors, `break`, `continue`, `else` i validació repetida. Inclou exercicis comentats al mateix fitxer. |
-| [`02_loop_for.py`](03_bucles/02_loop_for.py) | Iteració amb `for`, `enumerate()`, bucles imbricats i comprensions de llista. Inclou exercicis comentats al mateix fitxer. |
-| [`03_range.py`](03_bucles/03_range.py) | Exemples amb `range()`. |
-| [`04_functions.py`](03_bucles/04_functions.py) | Definició de funcions, paràmetres, arguments i valors de retorn. |
-| [`05_dictionaries.py`](03_bucles/05_dictionaries.py) | Diccionaris i operacions amb parelles clau-valor. |
-| [`06_tuplas.py`](03_bucles/06_tuplas.py) | Tuples, accés als elements, immutabilitat i mètodes disponibles. |
-
-En aquesta carpeta conviuen fitxers de solucions amb el sufix `_solutions.py` —com [`02_loop_for_solutions.py`](03_bucles/02_loop_for_solutions.py) i [`03_range_solutions.py`](03_bucles/03_range_solutions.py)— i exercicis inclosos als fitxers principals. Consulta la carpeta per veure quins materials estan disponibles per a cada tema; aquesta part del repositori s'anirà completant.
+| Ordre | Fitxer principal | Notebook | Exercicis | Solucions | Contingut |
+|---|---|---|---|---|---|
+| 1 | [`01_loop_while.py`](03_bucles/01_loop_while.py) | [`01_loop_while.ipynb`](03_bucles/01_loop_while.ipynb) | [`01_loop_while_exercicis.py`](03_bucles/01_loop_while_exercicis.py) | [`01_loop_while_solucions.py`](03_bucles/01_loop_while_solucions.py) | Bucle while, comptadors, reak, continue, else i validació repetida. |
+| 2 | [`02_loop_for.py`](03_bucles/02_loop_for.py) | [`02_loop_for.ipynb`](03_bucles/02_loop_for.ipynb) | [`02_loop_for_exercicis.py`](03_bucles/02_loop_for_exercicis.py) | [`02_loop_for_solucions.py`](03_bucles/02_loop_for_solucions.py) | Iteració amb or, enumerate(), bucles imbricats i comprensions de llista. |
+| 3 | [`03_range.py`](03_bucles/03_range.py) | [`03_range.ipynb`](03_bucles/03_range.ipynb) | [`03_range_exercicis.py`](03_bucles/03_range_exercicis.py) | [`03_range_solucions.py`](03_bucles/03_range_solucions.py) | Ús de ange() i bucles amb rangs. |
+| 4 | [`04_functions.py`](03_bucles/04_functions.py) | [`04_functions.ipynb`](03_bucles/04_functions.ipynb) | [`04_functions_exercicis.py`](03_bucles/04_functions_exercicis.py) | [`04_functions_solucions.py`](03_bucles/04_functions_solucions.py) | Definició de funcions, paràmetres, arguments i valors de retorn. |
+| 5 | [`05_dictionaries.py`](03_bucles/05_dictionaries.py) | [`05_dictionaries.ipynb`](03_bucles/05_dictionaries.ipynb) | [`05_dictionaries_exercicis.py`](03_bucles/05_dictionaries_exercicis.py) | [`05_dictionaries_solucions.py`](03_bucles/05_dictionaries_solucions.py) | Diccionaris i operacions amb parelles clau-valor. |
+| 6 | [`06_tuplas.py`](03_bucles/06_tuplas.py) | [`06_tuplas.ipynb`](03_bucles/06_tuplas.ipynb) | [`06_tuplas_exercicis.py`](03_bucles/06_tuplas_exercicis.py) | [`06_tuplas_solucions.py`](03_bucles/06_tuplas_solucions.py) | Tuples, accés als elements, immutabilitat i mètodes disponibles. |
 
 ## Organització i noms dels fitxers
 
@@ -115,7 +113,7 @@ En general, els fitxers segueixen aquests patrons:
 
 - `NN_tema.py`: exemples i contingut principal del tema.
 - `NN_tema_exercicis.py`: enunciats per practicar sense solucions.
-- `NN_tema_solucions.py` o `NN_tema_solutions.py`: solucions dels exercicis.
+- `NN_tema_solucions.py`: solucions dels exercicis.
 
 La convenció encara no és uniforme a tot el repositori. En alguns temes, els exercicis apareixen comentats al fitxer principal o s'agrupen en un únic fitxer. Fes servir l'índex de cada carpeta i aquesta guia com a orientació; els fitxers disponibles són la referència definitiva.
 

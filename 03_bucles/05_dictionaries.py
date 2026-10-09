@@ -1,18 +1,18 @@
 ###
-# 04 - Dictionaries
-# Los diccionarios son colecciones de pares clave-valor.
-# Sirven para almacenar datos relacionados.
+# 05 - Diccionaris
+# Els diccionaris són col·leccions de parelles clau-valor.
+# Serveixen per emmagatzemar dades relacionades.
 ###
 
 import os
 os.system("cls")
 
-# ejemplo tipico de diccionario
+# exemple típic de diccionari
 persona = {
-  "nombre": "marc",
-  "edad": 25,
-  "es_estudiante": True,
-  "calificaciones": [7, 8, 9],
+  "nom": "marc",
+  "edat": 25,
+  "es_estudiant": True,
+  "qualificacions": [7, 8, 9],
   "socials": {
     "twitterx": "@marcesteveg",
     "github": "@MarcEsteve",
@@ -20,47 +20,53 @@ persona = {
   }
 }
 
-# para acceder a los valores
-# print(persona["nombre"]) # "marc"
-# print(persona["edad"]) #25
-# print(persona["calificaciones"][2])
+# per accedir als valors
+# print(persona["nom"]) # "marc"
+# print(persona["edat"]) # 25
+# print(persona["qualificacions"][2])
 # print(persona["socials"]["twitterx"])
 
-# cambiar valores al acceder
-# persona["nombre"] = "esteve"
-# persona["calificaciones"][2] = 10
+# canviar valors en accedir-hi
+# persona["nom"] = "esteve"
+# persona["qualificacions"][2] = 10
 
-# eliminar completamente una propiedad
-# del persona["edad"]
+# eliminar completament una propietat
+# del persona["edat"]
 # print(persona)
 
-# es_estudiante = persona.pop("es_estudiante") 
-# print(f"es_estudiante: {es_estudiante}")
+# es_estudiant = persona.pop("es_estudiant")
+# print(f"es_estudiant: {es_estudiant}")
 # print(persona)
 
-# sobreescribir un diccionario con otro diccionario
-# a = { "name": "marc", "age": 25 }
-# b = { "name": "daniel", "es_estudiante": False }
+# sobreescriure un diccionari amb un altre diccionari
+# a = { "nom": "marc", "edat": 25 }
+# b = { "nom": "daniel", "es_estudiant": False }
 # print(a)
 # a.update(b)
 # print(a)
 
-# comprobar si existe una propiedad
+# comprovar si existeix una propietat
 print("name" in persona) # False
-print("nombre" in persona) # True
+print("nom" in persona) # True
 
-# obtener todas las claves
+# obtenir totes les claus
 print("\nkeys:")
 print(persona.keys())
 print(persona["socials"].keys())
 
-# obtener todas los valores
+# obtenir tots els valors
 print("\nvalues:")
 print(persona.values())
 
-# obtener tanto clave como valor
+# obtenir tant la clau com el valor
 print("\nitems:")
 print(persona.items())
 
-for key, value in persona.items():
-  print(f"{key}: {value}")
+for clau, valor in persona.items():
+  print(f"{clau}: {valor}")
+
+###
+# EXERCICIS (diccionaris)
+###
+
+# Consulta els exercicis a 05_dictionaries_exercicis.py

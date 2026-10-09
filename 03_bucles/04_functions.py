@@ -1,76 +1,76 @@
 ###
-# 04 - Funciones
-# Bloques de código reutilizables y parametrizables para hacer tareas especificas
+# 04 - Funcions
+# Blocs de codi reutilitzables i parametritzables per fer tasques específiques
 ###
 
 import os
 os.system("cls")
 
-""" Definición de una función
+""" Definició d'una funció
 
-def nombre_de_la_funcion(parametro1, parametro2, ...):
+def nom_de_la_funcio(parametre1, parametre2, ...):
   # docstring
-  # cuerpo de la función
-  return valor_de_retorno # opcional
+  # cos de la funció
+  return valor_de_retorn # opcional
 
 """
 
-# # Ejemplo de una función para imprimir algo en consola
+# # Exemple d'una funció per imprimir alguna cosa a la consola
 # def saludar():
-#   print("¡Hola!")
+#   print("Hola!")
 
-# saludar() # llamada a la función
+# saludar() # crida a la funció
 
-# # Ejemplo de una función con parámetro
-# def saludar_a(nombre):
-#   print(f"¡Hola {nombre}!")
+# # Exemple d'una funció amb paràmetre
+# def saludar_a(nom):
+#   print(f"Hola {nom}!")
 
-# saludar_a("marc") # argumento = "marc"
+# saludar_a("marc") # argument = "marc"
 # saludar_a("cristina")
 # saludar_a("fernando")
 
-# El parámetro es lo que acepta la función
-# El argumento es el valor que se le pasa a la función 
+# El paràmetre és el que accepta la funció
+# L'argument és el valor que se li passa a la funció
 
-# # Funciones con más parámetros
+# # Funcions amb més paràmetres
 # def sumar(a, b):
 #   suma = a + b
 #   return suma
 
-# result = sumar(2, 3)
-# print(result)
+# resultat = sumar(2, 3)
+# print(resultat)
 
-# # Documentar las funciones con docstring
+# # Documentar les funcions amb docstring
 # def restar(a, b):
-#   """Resta dos números y devuelve el resultado"""
+#   """Resta dos números i retorna el resultat"""
 #   return a - b
-# En Python puedes acceder al docstring de una función con el atributo __doc__
+# En Python pots accedir al docstring d'una funció amb l'atribut __doc__
 # print(restar.__doc__)
-# Incluso help(restar) te mostrará el docstring de la función
+# Fins i tot help(restar) et mostrarà el docstring de la funció
 # help(restar)
 
-# parámetros por defecto
+# paràmetres per defecte
 # def multiplicar(a, b = 5):
 #   return a * b
 
 # print(multiplicar(2))
 # print(multiplicar(2, 3))
 
-# Argumentos por posición
-# def describir_persona(nombre: str, edad: int, sexo: str):
-#   print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
+# Arguments per posició
+# def descriure_persona(nom: str, edat: int, sexe: str):
+#   print(f"Sóc {nom}, tinc {edat} anys i m'identifico com a {sexe}")
 
-# parámetros son posicionales
-# describir_persona(1, 25, "gato")
-# describir_persona("marc", 25, "gato")
-# describir_persona("hombre", "marc", 39)
+# els paràmetres són posicionals
+# descriure_persona(1, 25, "gat")
+# descriure_persona("marc", 25, "gat")
+# descriure_persona("home", "marc", 39)
 
-# Argumentos por clave
-# parámetros nombrados
-# describir_persona(sexo="gato", nombre="marc", edad=25)
-# describir_persona(sexo="hombre", nombre="pedro", edad=21) 
+# Arguments per clau
+# paràmetres anomenats
+# descriure_persona(sexe="gat", nom="marc", edat=25)
+# descriure_persona(sexe="home", nom="pere", edat=21)
 
-# Argumentos de longitud de variable (*args):
+# Arguments de longitud variable (*args):
 # def sumar_numeros(*args):
 #   suma = 0
 #   for numero in args:
@@ -81,22 +81,22 @@ def nombre_de_la_funcion(parametro1, parametro2, ...):
 # print(sumar_numeros(1, 2))
 # print(sumar_numeros(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 
-# Argumentos de clave-valor variable (**kwargs):
-# def mostrar_informacion_de(**kwargs):
-#   for clave, valor in kwargs.items():
-#     print(f"{clave}: {valor}")
+# Arguments de clau-valor variable (**kwargs):
+# def mostrar_informacio_de(**kwargs):
+#   for clau, valor in kwargs.items():
+#     print(f"{clau}: {valor}")
 
-# mostrar_informacion_de(nombre="marc", edad=25, sexo="gato")
+# mostrar_informacio_de(nom="marc", edat=25, sexe="gat")
 # print("\n")
-# mostrar_informacion_de(name="pedro", edad=21, country="Madagascar")
+# mostrar_informacio_de(nom="pere", edat=21, pais="Madagascar")
 # print("\n")
-# mostrar_informacion_de(nick="charly", es_sub=True, is_rich=True)
+# mostrar_informacio_de(nick="charly", es_sub=True, es_ric=True)
 # print("\n")
-# mostrar_informacion_de(super_name="juan", es_modo=True, gatos=40)
+# mostrar_informacio_de(super_nom="joan", es_mode=True, gats=40)
 
-# Ejercicios
-# Volver a los ejercicios anteriores
-# y convertirlos en funciones
-# e intentar utilizar todos los casos y conceptos
-# que hemos visto hasta ahora
-# rangos, listas, bucles, etc.
+# Exercicis
+# Tornar als exercicis anteriors
+# i convertir-los en funcions
+# i intentar utilitzar tots els casos i conceptes
+# que hem vist fins ara
+# rangs, llistes, bucles, etc.

@@ -97,6 +97,7 @@ print('🐹' in animals) # -> False
 # (sense incloure el 5).
 # Imprimeix la llista resultant.
 
+
 # Exercici 4: Ordenar i comptar
 # Crea una llista amb els nombres següents: [5, 2, 8, 1, 9, 4, 2].
 # Ordena la llista de manera ascendent fent servir sort().
