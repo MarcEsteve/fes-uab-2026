@@ -3,9 +3,6 @@
 # Els mètodes més importants per treballar amb llistes
 ###
 
-import os
-os.system("cls")
-
 lista1 = ['a', 'b', 'c', 'd']
 print(lista1)
 # Afegir o inserir elements a la llista

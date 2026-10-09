@@ -7,29 +7,29 @@
 
 # Podem fer servir la paraula clau "if" per executar un bloc de codi
 # només si es compleix una condició.
-# edad = 18
-# if edad >= 18:
+# edat = 18
+# if edat >= 18:
 #   print("Ets major d'edat")
 #   print("Felicitats!")
 
 # Si no es compleix la condició, no s'executa el bloc de codi.
-# edad = 15
-# if edad >= 18:
+# edat = 15
+# if edat >= 18:
 #   print("Ets major d'edat")
 # print("Felicitats!")
 
 # Podem fer servir la paraula clau "else" per executar un bloc de codi
 # si no es compleix la condició anterior de l'if.
 # print("\n Sentència condicional amb else")
-# edad = 15
-# if edad >= 18:
+# edat = 15
+# if edat >= 18:
 #   print("Ets major d'edat")
 # else:
 #   print("Ets menor d'edat")
   
-# if edad >= 18:
+# if edat >= 18:
 #   print("Ets major d'edat")
-# if edad < 18:
+# if edat < 18:
 #   print("Ets menor d'edat")
 
 # print("\n Sentència condicional amb elif")
@@ -48,8 +48,8 @@
 #   print("No ha aprovat!")
 
 print("\n Condicions múltiples")
-edad = 16
-tiene_carnet = True
+edat = 16
+te_carnet = True
 
 # Els operadors lògics de Python són:
 # and: True si tots dos operands són certs.
@@ -58,51 +58,51 @@ tiene_carnet = True
 # && equival a and
 # || equival a or
 
-# edad = 16
-# tiene_carnet = True
+# edat = 16
+# te_carnet = True
 
 # Si ets major d'edat i tens carnet...
 # podràs conduir.
-if edad >= 18 and tiene_carnet:
+if edat >= 18 and te_carnet:
   print("Pots conduir 🚗")
 else:
   print("POLICIA 🚔!!!1!!!")
 
 # En un poble de l'illa Margarita són més permissius i
 # et deixen conduir si ets major d'edat O tens carnet.
-# if edad >= 18 or tiene_carnet:
+# if edat >= 18 or te_carnet:
 #   print("Pots conduir a l'illa Margarita 🚗")
 # else:
 #   print("Paga al policia i et deixarà conduir!!!")
 
 # També tenim l'operador lògic "not",
 # que ens permet negar una condició.
-es_fin_de_semana = False
+es_cap_de_setmana = False
 # JavaScript -> !
-# if not es_fin_de_semana:
+# if not es_cap_de_setmana:
   # print("Marc, va, que hem de fer classe!")
 
 # Podem anidar condicionals, l'un dins de l'altre,
 # per comprovar diverses condicions, tot i que
 # intentarem evitar-ho per simplificar el codi.
-# print("\n Condicionals anidats")
-# edad = 20
-# tiene_dinero = False
+# print("\n Condicionals imbricats")
+# edat = 20
+# te_diners = False
 
-# if edad >= 18:
-#   if tiene_dinero:
+# if edat >= 18:
+#   if te_diners:
 #     print("Pots anar a la discoteca")
 #   else:
 #     print("Pots entrar a la discoteca, però no comprar res")
 # else:
 #   print("No pots entrar a la discoteca")
 
-# edad = 20
-# tiene_dinero = False
+# edat = 20
+# te_diners = False
 # Una manera més senzilla seria:
-# if edad < 18:
+# if edat < 18:
 #   print("No pots entrar a la discoteca")
-# elif tiene_dinero:
+# elif te_diners:
 #   print("Pots anar a la discoteca")
 # else:
 #   print("Queda't a casa")

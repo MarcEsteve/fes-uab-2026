@@ -10,7 +10,7 @@
 
 # Exercici 2: Intercanvi de posicions
 # Donada la llista següent:
-# numeros = [10, 20, 30, 40, 50]
+# nombres = [10, 20, 30, 40, 50]
 # Intercanvia la primera i l'última posició fent servir només l'assignació per índex.
 
 # Exercici 3: L'entrepà de llistes
@@ -23,7 +23,7 @@
 
 # Exercici 4: Duplicar una llista
 # Donada una llista:
-# lista = [1, 2, 3]
+# llista = [1, 2, 3]
 # Crea una llista nova que contingui duplicats els elements de la llista original.
 # Exemple: [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
 
