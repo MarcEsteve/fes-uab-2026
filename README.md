@@ -48,6 +48,16 @@ python ./01_basic/01_print.py
 
 Canvia el camí del fitxer per executar qualsevol altre exemple. Els fitxers que fan servir `input()` esperen que introdueixis dades al terminal. Els notebooks `.ipynb` es poden obrir amb Jupyter Notebook o amb VS Code i l'extensió de Jupyter.
 
+### Obrir els materials amb Jupyter Notebook
+
+Si Jupyter Notebook està en funcionament a `http://localhost:8888`, pots obrir el repositori al navegador i accedir directament a alguns materials:
+
+- [Obrir la carpeta del repositori a Jupyter](http://localhost:8888/tree/OneDrive/Escritorio/UAB/2026-2027/FES/fes-uab-2026)
+- [Obrir l'exemple `01_print.py`](http://localhost:8888/tree/OneDrive/Escritorio/UAB/2026-2027/FES/fes-uab-2026/01_basic/01_print.py)
+- [Obrir el notebook `01_print.ipynb`](http://localhost:8888/notebooks/OneDrive/Escritorio/UAB/2026-2027/FES/fes-uab-2026/01_basic/01_print.ipynb)
+
+Els enllaços són locals: només funcionen quan el servidor Jupyter està iniciat al port `8888` i pot accedir a aquesta ruta del repositori.
+
 ## Ruta d'aprenentatge
 
 ### 0. Primer contacte amb Python
