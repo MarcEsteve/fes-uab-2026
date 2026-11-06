@@ -3,9 +3,6 @@
 # Blocs de codi reutilitzables i parametritzables per fer tasques específiques
 ###
 
-import os
-os.system("cls")
-
 """ Definició d'una funció
 
 def nom_de_la_funcio(parametre1, parametre2, ...):
