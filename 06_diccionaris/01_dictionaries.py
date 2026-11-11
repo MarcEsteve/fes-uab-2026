@@ -4,9 +4,6 @@
 # Serveixen per emmagatzemar dades relacionades.
 ###
 
-import os
-os.system("cls")
-
 # exemple típic de diccionari
 persona = {
   "nom": "marc",
