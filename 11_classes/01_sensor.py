@@ -92,7 +92,6 @@ def main():
     tensio = Sensor("V1", "V")
     print(tensio.mitjana())  # None
 
-
 # ENGINYERIA DEL PROGRAMARI
 # Sensor té la responsabilitat de gestionar les seves lectures.
 # Centralitzar la validació a registrar facilita la mantenibilitat.
