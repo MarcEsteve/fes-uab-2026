@@ -1,6 +1,3 @@
-import os
-os.system("cls")
-
 # 📌 Exemples de tuples en Python
 # Les tuples són col·leccions ordenades i immutables d'elements.
 # A diferència de les llistes, no es poden modificar un cop creades.
@@ -31,10 +28,14 @@ print("Últim element:", la_meva_tupla[-1])
 print("Nombre d'elements de la tupla:", len(la_meva_tupla))
 
 # 7️⃣ Mètodes disponibles en una tupla
+# Les tuples només tenen dos mètodes: count() i index().
 print("Nombre de vegades que apareix el 2 a la tupla:", la_meva_tupla.count(2))  # Compta quantes vegades apareix un valor
 print("Índex de la primera aparició del 4:", la_meva_tupla.index(4))  # Retorna l'índex de la primera aparició d'un valor
+print("Índex del primer 2 a partir de la posició 2:", la_meva_tupla.index(2, 2))  # Cerca des de l'índex indicat (inclòs)
 
-# 📝 Exercicis sobre tuples
-# 1️⃣ Crea una tupla amb els noms de 5 ciutats i mostra la segona i la penúltima ciutat.
-# 2️⃣ Donada una tupla amb números enters, compta quantes vegades apareix el número 3 a la tupla.
-# 3️⃣ Crea una funció que rebi una tupla amb números i retorni una tupla nova amb els números ordenats de menor a major.
+# També hi podem aplicar funcions integrades de Python (no són mètodes de la tupla).
+print("Valor més petit:", min(la_meva_tupla))
+print("Valor més gran:", max(la_meva_tupla))
+print("Suma dels elements:", sum(la_meva_tupla))
+# sorted() retorna una llista ordenada; tuple() la converteix en una tupla nova.
+print("Tupla ordenada de menor a major:", tuple(sorted(la_meva_tupla)))
