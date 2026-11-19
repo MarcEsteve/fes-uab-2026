@@ -35,3 +35,21 @@ contingut_amb_error = "20.0\nerror\n\n22.0\n"
 # la lectura completa ha de donar "Inici\nAturada\n".
 # Repetir "Inici" ha d'afegir una tercera línia, conservant les dues anteriors.
 esdeveniments = ["Inici", "Aturada"]
+
+# Exercici 5 - Intermedi - Filtrar temperatures
+# Implementa filtrar_temperatures(ruta_origen, ruta_desti, llindar).
+# Llegeix les temperatures de ruta_origen i desa a ruta_desti només les que
+# siguin iguals o superiors al llindar, una per línia i amb un decimal.
+# Entrada, "18.5\n25.7\n27.3\n20.5\n" i llindar 25.0.
+# La lectura del fitxer de destí ha de donar [25.7, 27.3].
+# Si cap temperatura supera el llindar, el fitxer de destí ha d'existir buit.
+temperatures_per_filtrar = "18.5\n25.7\n27.3\n20.5\n"
+llindar_temperatures = 25.0
+
+# Exercici 6 - Intermedi - Crear un resum d'un fitxer
+# Implementa crear_resum(ruta_origen, ruta_resum).
+# Llegeix temperatures i escriu un resum amb aquest format exacte:
+# "Nombre de lectures: 4\nMínima: 18.5 °C\nMàxima: 27.3 °C\nMitjana: 23.0 °C\n"
+# Entrada, "18.5\n25.7\n27.3\n20.5\n". Arrodoneix la mitjana a un decimal.
+# El fitxer buit ha de produir només:
+# "Nombre de lectures: 0\nNo hi ha dades per resumir.\n"
